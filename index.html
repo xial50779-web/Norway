@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#173943">
+<meta name="description" content="挪威冬季十天攻略｜国内往返 · 公共交通 · 奥斯陆、卑尔根、特罗姆瑟；含逐日行程、交通、预算和官方链接。">
+<title>挪威冬季十天攻略｜国内往返 · 公共交通版</title>
+<style>
+:root { color-scheme:light; --night:#122b36; --deep:#183944; --pine:#285866; --teal:#397c86;
+--mist:#edf5f5; --bg:#f4f7f7; --white:#fff; --ink:#20333b; --muted:#647883;
+--line:#dae5e7; --soft:#edf4f4; --radius:19px; --shadow:0 8px 30px rgba(15,51,63,.055); }
+*,*::before,*::after { box-sizing:border-box; }
+html { scroll-behavior:smooth; scroll-padding-top:0; }
+body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.8 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Noto Sans CJK SC",Arial,sans-serif; -webkit-text-size-adjust:100%; }
+a { color:#176e85; text-decoration-color:#96bfca; text-underline-offset:3px; overflow-wrap:anywhere; }
+a:hover { color:#0b5169; }
+a:focus-visible, summary:focus-visible,button:focus-visible { outline:3px solid #e6b673; outline-offset:3px; }
+.skip { position:absolute; top:-99px; left:14px; z-index:1000; background:white; padding:8px 12px; border-radius:8px; }
+.skip:focus {top:10px;}
+.hero { position:relative; color:#fff; isolation:isolate; overflow:hidden; background:linear-gradient(115deg,#122e3a 2%,#214955 61%,#416d72 100%); }
+.hero::before { position:absolute; z-index:-1; content:""; width:650px; height:650px; right:-210px; top:-390px; border:1px solid rgba(255,255,255,.13); border-radius:50%; box-shadow:0 0 0 95px rgba(255,255,255,.025), 0 0 0 190px rgba(255,255,255,.018); }
+.hero::after { position:absolute; z-index:-1; content:""; width:320px; height:260px; bottom:-150px; left:-85px; background:radial-gradient(ellipse,rgba(147,205,191,.16),transparent 72%); }
+.hero-content { max-width:1160px; margin:0 auto; padding:57px 24px 45px; }
+.eyebrow { margin:0 0 14px; color:#bbdcd8; font-weight:750; font-size:12px; letter-spacing:.21em; line-height:1.4; }
+.hero h1 { margin:0; font-size:clamp(32px,4.5vw,51px); letter-spacing:-.045em; font-weight:780; line-height:1.25; }
+.hero h1 span { color:#cde5df; }
+.hero-sub { color:#e1eceb; margin:15px 0 0; font-size:15px; letter-spacing:.01em; line-height:1.7; }
+.hero-tags { display:flex; flex-wrap:wrap; gap:9px; margin-top:26px; }
+.hero-tags span { color:#e3f2f0; padding:5px 11px; font-size:12px; background:rgba(255,255,255,.10); border:1px solid rgba(255,255,255,.16); border-radius:999px; }
+.top-nav { position:sticky; top:0; z-index:45; background:rgba(255,255,255,.95); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); border-bottom:1px solid var(--line); }
+.top-nav-inner { max-width:1160px; margin:0 auto; padding:0 16px; display:flex; align-items:center; gap:18px; }
+.nav-brand { flex:none; color:var(--deep); font-size:13px; font-weight:800; white-space:nowrap; }
+.nav-links { display:flex; overflow-x:auto; overscroll-behavior-inline:contain; gap:4px; scrollbar-width:none; -webkit-overflow-scrolling:touch; }
+.nav-links::-webkit-scrollbar,.jump-scroll::-webkit-scrollbar { display:none; }
+.nav-links a { color:#5a6e76; flex:none; font-size:13px; font-weight:650; text-decoration:none; padding:12px 13px; border-bottom:2px solid transparent; white-space:nowrap; }
+.nav-links a:hover,.nav-links a.active { border-bottom-color:var(--teal); color:var(--deep); }
+.page { max-width:1160px; margin:0 auto; padding:26px 18px 90px; display:grid; grid-template-columns:240px minmax(0,1fr); gap:22px; align-items:start; }
+.toc-panel { background:var(--white); border:1px solid var(--line); border-radius:var(--radius); padding:20px; box-shadow:var(--shadow); position:sticky; top:78px; max-height:calc(100vh - 95px); overflow:auto; }
+.toc-panel h2 { font-size:13px; margin:0 0 13px; color:var(--deep); border:0; padding:0; letter-spacing:.08em; }
+.toc-list { margin:0; padding:0; list-style:none; }
+.toc-list li { margin:4px 0; }
+.toc-list a { display:block; font-size:13px; color:#657780; border-radius:8px; text-decoration:none; line-height:1.5; padding:7px 9px; }
+.toc-list a:hover { background:var(--soft); color:var(--deep); }
+.toc-note { font-size:12px; line-height:1.6; color:#78909a; margin:14px 9px 0; }
+.paper { min-width:0; padding:35px clamp(22px,4vw,46px) 46px; background:var(--white); border:1px solid var(--line); border-radius:var(--radius); box-shadow:var(--shadow); }
+.paper > h1 { display:none; }
+.paper h2 { font-size:25px; color:var(--night); line-height:1.4; letter-spacing:-.025em; border-bottom:1px solid var(--line); padding:0 0 13px; margin:49px 0 17px; scroll-margin-top:72px; }
+.paper h2:first-of-type { margin-top:0; }
+.paper h3 { font-size:19px; color:var(--deep); line-height:1.45; margin:26px 0 11px; }
+.paper p { margin:13px 0; overflow-wrap:break-word; }
+.paper strong { color:var(--deep); font-weight:750; }
+.paper ul,.paper ol { padding-left:1.4em; }
+.paper li { padding-left:.2em; margin:9px 0; }
+.paper li::marker { color:var(--teal); }
+.paper #official + ul { padding-left:1.3em; }
+.paper #official + ul li { padding:2px 0; }
+.paper > p:first-of-type { color:#5e7179; font-size:14px; }
+.route-path { background:linear-gradient(90deg,#eaf4f3,#f1f7f7); color:#24515d; border:1px solid #d8e7e5; border-radius:15px; padding:15px 18px; font-size:16px; line-height:1.9; }
+.route-path strong {color:var(--deep)}
+.overview-facts { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:10px; margin:19px 0 20px; }
+.overview-facts > div { padding:14px 13px; border:1px solid var(--line); border-radius:13px; background:#fcfefe; display:flex; flex-direction:column; gap:4px; }
+.overview-facts b { font-size:22px; font-weight:800; line-height:1.2; color:var(--deep); }
+.overview-facts span { font-size:12px; color:#6b7f86; line-height:1.45; }
+.table-shell { max-width:100%; border:1px solid var(--line); border-radius:13px; overflow-x:auto; margin:20px 0 24px; -webkit-overflow-scrolling:touch; }
+.responsive-table { width:100%; border-collapse:collapse; font-size:14px; line-height:1.65; }
+.responsive-table th { background:#ebf3f3; color:#244e5a; white-space:nowrap; font-size:13px; font-weight:750; text-align:left; }
+.responsive-table th,.responsive-table td { padding:12px 13px; vertical-align:top; border-bottom:1px solid #e5eded; }
+.responsive-table tbody tr:last-child td { border-bottom:none; }
+.responsive-table tbody tr:nth-child(even) { background:#f9fbfb; }
+.responsive-table td:first-child { font-weight:750; color:#265966; }
+.responsive-table td { overflow-wrap:anywhere; }
+.table-4 td:last-child,.table-4 th:last-child { text-align:right; }
+.mobile-timeline { display:none; }
+.day-jump { display:flex; align-items:center; margin:26px 0 17px; gap:12px; }
+.jump-heading { color:var(--deep); font-size:13px; flex:none; font-weight:800; }
+.jump-scroll { display:flex; gap:6px; flex-wrap:wrap; }
+.jump-scroll a { display:inline-flex; justify-content:center; min-width:41px; border-radius:9px; padding:6px 8px; text-decoration:none; font-weight:760; font-size:12px; background:#edf5f4; color:#32606c; border:1px solid #dce9e7; }
+.jump-scroll a:hover {background:#dbece9;}
+.day-accordion { display:grid; gap:12px; }
+.day-detail { border:1px solid var(--line); background:white; border-radius:14px; overflow:hidden; scroll-margin-top:72px; }
+.day-detail[open] { border-color:#aacbd1; box-shadow:0 6px 22px rgba(26,73,83,.06); }
+.day-detail summary { list-style:none; display:flex; align-items:center; gap:14px; padding:16px 16px; cursor:pointer; background:#fafcfc; min-height:72px; }
+.day-detail summary::-webkit-details-marker {display:none;}
+.day-detail summary::after { content:"⌄"; display:block; font-size:25px; line-height:1; color:#6f969c; margin-left:auto; transform:rotate(0); transition:transform .2s ease; }
+.day-detail[open] summary::after {transform:rotate(180deg);}
+.day-detail[open] summary { background:#f1f8f7; border-bottom:1px solid var(--line); }
+.day-index { flex:0 0 auto; display:flex; align-items:center; justify-content:center; width:46px; height:45px; background:var(--deep); color:#fff; border-radius:11px; font-size:14px; font-weight:800; letter-spacing:.03em; }
+.day-text { display:flex; flex-direction:column; min-width:0; }
+.day-title { color:var(--deep); font-size:16px; line-height:1.5; font-weight:750; }
+.day-sub { font-size:12px; color:#728990; line-height:1.55; margin-top:2px; }
+.day-body { padding:8px 20px 17px; font-size:15px; }
+.day-body p { margin:13px 0; }
+.page-footer { font-size:12px; color:#7d9198; margin:27px 8px 0; text-align:center; }
+.back-top { position:fixed; z-index:48; right:22px; bottom:22px; bottom:calc(22px + env(safe-area-inset-bottom)); display:flex; align-items:center; justify-content:center; width:45px; height:45px; border-radius:50%; background:var(--deep); color:white; border:1px solid rgba(255,255,255,.15); box-shadow:0 6px 24px #173a4540; text-decoration:none; font-size:20px; }
+.back-top:hover {color:white;background:#326875;}
+@media (max-width:900px) { .page {grid-template-columns:minmax(0,1fr);max-width:780px; padding:18px 14px 80px;} .toc-panel{display:none;} .paper {padding:28px 26px 42px;} .top-nav-inner{max-width:780px;} }
+@media (max-width:640px) {
+ html{scroll-padding-top:0;}
+ body {font-size:15.5px;line-height:1.83;}
+ .hero-content {padding:39px 20px 30px;}
+ .hero h1 {font-size:34px;letter-spacing:-.03em;}
+ .eyebrow {font-size:11px;letter-spacing:.17em;}
+ .hero-sub {font-size:14px;margin-top:13px;}
+ .hero-tags{gap:7px;margin-top:20px;}
+ .hero-tags span{font-size:11px; padding:4px 9px;}
+ .top-nav-inner{padding:0 2px;gap:0;}
+ .nav-brand{display:none;}
+ .nav-links{width:100%;padding-left:9px;}
+ .nav-links a{padding:11px 13px 10px;font-size:13px;}
+ .page{padding:12px 9px 64px;}
+ .paper{padding:21px 16px 30px; border-radius:14px;}
+ .paper >p:first-of-type{font-size:13px;}
+ .paper h2{font-size:21px;margin:41px 0 16px;padding-bottom:11px;scroll-margin-top:58px;}
+ .paper h3{font-size:17px;}
+ .paper p{margin:12px 0;}
+ .paper li{margin:9px 0;}
+ .route-path{padding:13px 14px;font-size:14px;}
+ .overview-facts {gap:7px;}
+ .overview-facts >div {padding:11px 9px;border-radius:10px;}
+ .overview-facts b {font-size:19px;}
+ .overview-facts span {font-size:10px;}
+ .table-shell {border:none;overflow:visible;margin:15px 0 23px;}
+ .itinerary-table{display:none;}
+ .mobile-timeline{display:grid;gap:9px;margin:17px 0 23px;}
+ .mobile-stop{display:flex;align-items:center;gap:12px;padding:12px 11px;background:#fff;border:1px solid var(--line);border-radius:13px;color:var(--deep);text-decoration:none;box-shadow:0 2px 12px rgba(22,58,66,.035);}
+ .mobile-stop:hover{color:var(--deep);background:#f3f8f8;}
+ .stop-number{flex:none;display:flex;align-items:center;justify-content:center;min-width:43px;height:42px;border-radius:10px;background:#ebf4f3;font-size:13px;font-weight:800;color:#31636c;}
+ .stop-copy{display:flex;flex:1;min-width:0;flex-direction:column;gap:4px;}
+ .stop-copy strong{font-size:13px;font-weight:730;line-height:1.55;color:var(--deep);}
+ .stop-copy span{font-size:11px;line-height:1.5;color:#7a8e96;}
+ .stop-arrow{color:#7da1a4;font-size:18px;line-height:1;flex:none;}
+ .responsive-table,.responsive-table tbody,.responsive-table tr {display:block;width:100%;}
+ .responsive-table thead {display:none;}
+ .responsive-table tbody {display:grid;gap:10px;}
+ .responsive-table tr {padding:7px 0;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 3px 12px rgba(25,54,62,.035);}
+ .responsive-table tbody tr:nth-child(even){background:#fff;}
+ .responsive-table td {width:100%;display:grid;grid-template-columns:78px minmax(0,1fr);gap:10px;padding:7px 13px;align-items:start;border:0;font-size:13px;line-height:1.65;overflow-wrap:anywhere;text-align:left!important;}
+ .responsive-table td::before {content:attr(data-label);font-size:11px;line-height:1.8;font-weight:650;color:#81939a;padding-top:1px;}
+ .responsive-table td:first-child {font-weight:780;color:var(--deep);padding-top:10px;}
+ .responsive-table td:first-child::before {color:#78929a;}
+ .table-2 td:first-child,.table-3 td:first-child {border-bottom:1px solid #edf2f3; padding-bottom:8px; margin-bottom:2px;}
+ .table-2 td:first-child {font-size:15px;}
+ .day-jump{display:block;margin:24px 0 15px;}
+ .jump-heading{display:block;margin-bottom:9px;}
+ .jump-scroll{display:flex;gap:7px;flex-wrap:nowrap;overflow-x:auto;padding:0 0 5px;scrollbar-width:none;-webkit-overflow-scrolling:touch;}
+ .jump-scroll a{min-width:43px;font-size:13px;}
+ .day-accordion{gap:9px;}
+ .day-detail {scroll-margin-top:58px;}
+ .day-detail summary {gap:11px;padding:12px 11px;min-height:70px;}
+ .day-index {width:42px;height:43px;border-radius:10px;font-size:13px;}
+ .day-title {font-size:14px;}
+ .day-sub {font-size:11px;}
+ .day-body{padding:6px 14px 15px;font-size:14px;}
+ .back-top{right:14px;bottom:17px;bottom:calc(17px + env(safe-area-inset-bottom));width:42px;height:42px;}
+}
+@media (max-width:360px) {.overview-facts b{font-size:17px;} .overview-facts span{font-size:9px;} .paper{padding:17px 13px;} .responsive-table td{grid-template-columns:67px minmax(0,1fr); gap:6px;} }
+@media (prefers-reduced-motion:reduce) {html{scroll-behavior:auto;} *,*::before,*::after{transition:none!important;animation:none!important;}}
+@media print {body{background:#fff}.hero{color:#000;background:#fff}.hero-tags,.top-nav,.toc-panel,.back-top,.day-jump{display:none}.page{display:block;max-width:none;padding:0}.paper{border:0;box-shadow:none;padding:0}.day-detail,.day-detail[open]{border:0;box-shadow:none;break-inside:avoid}.day-detail>.day-body{display:block!important}.day-detail summary::after{display:none}.day-detail summary{background:#fff}.table-shell{overflow:visible} }
+</style>
+</head>
+<body id="top">
+<a class="skip" href="#content">跳转到正文</a>
+<header class="hero">
+ <div class="hero-content">
+  <p class="eyebrow">NORWAY / WINTER TRAVEL GUIDE</p>
+  <h1>挪威冬季 <span>10 天</span></h1>
+  <p class="hero-sub">国内往返 · 公共交通为主 · 12 月—1 月</p>
+  <div class="hero-tags"><span>奥斯陆</span><span>卑尔根</span><span>特罗姆瑟</span><span>峡湾 · 极光 · 观鲸</span></div>
+ </div>
+</header>
+<nav class="top-nav" aria-label="页面章节导航"><div class="top-nav-inner"><span class="nav-brand">挪威冬季指南</span><div class="nav-links"><a href="#overview">路线</a><a href="#flights">往返航班</a><a href="#itinerary">10天行程</a><a href="#transport">交通</a><a href="#budget">预算</a><a href="#tips">订票提醒</a><a href="#official">官网入口</a></div></div></nav>
+<div class="page">
+ <aside class="toc-panel" aria-label="文章目录"><h2>阅读目录</h2><ul class="toc-list"><li><a href="#overview">路线</a></li><li><a href="#flights">往返航班</a></li><li><a href="#itinerary">10天行程</a></li><li><a href="#transport">交通</a></li><li><a href="#budget">预算</a></li><li><a href="#tips">订票提醒</a></li><li><a href="#official">官网入口</a></li></ul><p class="toc-note">手机上方的导航可左右滑动，点击日期可展开每天的完整安排。</p></aside>
+ <main><article class="paper" id="content"><h1>挪威冬季十天攻略｜国内往返・公共交通版</h1><p>适用：12月—1月；十天包含中国境内出发和返回；不自驾。交通与活动资料核对于2026年10月16日。本版是可据此订票的路线框架，尚未绑定具体出发日期，表中时间段属于安排建议，只有特别注明的运营时间属于当前官网公布班次。</p><h2 id="overview">先看路线和取舍</h2><p class="route-path"><strong>国内出发 → 奥斯陆 → 卑尔根 → 特罗姆瑟 → 奥斯陆 → 返回国内</strong></p><div aria-label="行程速览" class="overview-facts"><div><b>10 天</b><span>含国际往返</span></div><div><b>7 晚</b><span>挪威境内住宿</span></div><div><b>3 城市</b><span>奥斯陆 · 卑尔根 · 特罗姆瑟</span></div></div><p>全程挪威住宿7晚：奥斯陆1晚＋卑尔根2晚＋特罗姆瑟3晚＋奥斯陆1晚。第1天去程，第2天抵达；第9天离开挪威，第10天返回国内。奥斯陆—卑尔根坐景观火车，卑尔根—特罗姆瑟和特罗姆瑟—奥斯陆坐飞机。</p><p>这条路线兼顾雪山高原火车、西部峡湾、北极海岸、观鲸和极光。城市不多，但两段长距离移动仍会占用大半天；它适合第一次到挪威、希望兼顾南北的人。若更想慢游北极，可删去卑尔根，把两晚挪给特罗姆瑟。</p><p><strong>公共交通的范围：</strong>机场、市内和城际交通使用火车、定期航班、轻轨和公交；Mostraumen峡湾游船属于收费观光船；郊外峡湾、观鲸、追极光及驯鹿营地属于可选付费活动，使用活动方的船或接送车。它们都单独买票，不能用公交票抵扣。本版不是全程跟团，但包含当地短途团。</p><p>若日期可选，我更倾向<strong>1月中下旬</strong>：在你选定的时段里，光线正逐渐恢复，也仍在常见观鲸季内。12月则更适合圣诞气氛，但应专门核对节日期间交通、餐厅和活动的营业安排。</p><p>特罗姆瑟极夜约为11月27日至1月15日，极夜时仍有数小时暮光，并非全天完全漆黑；市中心因山体遮挡，通常比天文日出日期更晚看见太阳。不要把极夜行程理解成全天能拍清晰雪景。卑尔根冬季也可能下雨，城区和游船沿线的积雪均不保证。</p><h2 id="flights">国际航班：飞到哪里、从哪里离开</h2><h3>首选检索框架</h3><div class="table-shell"><table class="responsive-table table-1"><thead><tr><th>方向</th><th>优先检索路线</th><th>订票时必须满足的条件</th></tr></thead><tbody><tr><td data-label="方向">去程</td><td data-label="检索路线">国内出发城市 → 合适的转机枢纽 → 奥斯陆（OSL）</td><td data-label="订票条件">目标 D1 出发、D2 抵达；优先完整联程</td></tr><tr><td data-label="方向">回程</td><td data-label="检索路线">奥斯陆（OSL）→ 合适的转机枢纽 → 国内目的地</td><td data-label="订票条件">目标 D9 离境、D10 返抵；核实转机和行李手续</td></tr></tbody></table></div><p>可将<strong>国内出发城市 → 北京首都（PEK）→ 奥斯陆（OSL）</strong>作为候选路线之一，也可以按日期查询其他国内或海外枢纽。是否有对应国际段、能否衔接国内段，以及整程是否可售，都以选定日期的航空公司页面为准；不要把示例转机点理解为唯一推荐。</p><p>如果经北京中转的日期不合适，可以比较经其他枢纽（如迪拜）到奥斯陆的航线。不同航司或分开出票的组合，可能涉及重新托运行李、过境规定及误机风险；优先寻找受联程保护的机票，不要仅因票价便宜就选择无法保障的短中转。</p><p><strong>实际筛选顺序：</strong>输入自己的国内出发城市与奥斯陆（OSL），先核对<strong>D1出发、D2抵达、D9离境、D10返抵</strong>是否成立，再比较总时长、国际段到达时间、行李规则和中转风险。涉及北京时要区分首都机场PEK与大兴机场PKX。如果航班排期无法覆盖这十天，就调整路线或日期，不要硬拼行程。</p><p>国际到达与离境统一使用<strong>OSL</strong>。不要因搜索结果写着“Oslo”就买到较远的Torp机场TRF。本版交通时间不适用于TRF。</p><p>冬季挪威比中国标准时间慢7小时；以下挪威境内安排均按当地时间。</p><h2 id="itinerary">十天日程</h2><div class="table-shell itinerary-table"><table class="responsive-table table-2"><thead><tr><th>天数</th><th>所在地与当天重点</th><th>交通</th><th>当晚住宿</th></tr></thead><tbody><tr><td data-label="天数">D1</td><td data-label="当天安排">国内出发，经枢纽转机</td><td data-label="交通方式">国际联程去程</td><td data-label="当晚住宿">飞机／中转途中</td></tr><tr><td data-label="天数">D2</td><td data-label="当天安排">抵达奥斯陆；歌剧院周边、海港与市中心轻松走走</td><td data-label="交通方式">OSL → Oslo S，Vy火车约23分钟；市内步行</td><td data-label="当晚住宿">奥斯陆</td></tr><tr><td data-label="天数">D3</td><td data-label="当天安排">奥斯陆 → 卑尔根，雪山高原景观火车</td><td data-label="交通方式">Oslo S → Bergen，Vy直达约7小时</td><td data-label="当晚住宿">卑尔根</td></tr><tr><td data-label="天数">D4</td><td data-label="当天安排">Mostraumen峡湾游船；有余力再去弗洛伊恩山</td><td data-label="交通方式">市中心码头往返观光船约3—3.5小时；Fløibanen缆索铁路</td><td data-label="当晚住宿">卑尔根</td></tr><tr><td data-label="天数">D5</td><td data-label="当天安排">卑尔根飞特罗姆瑟；港口、城市暮光；可选第一次追极光</td><td data-label="交通方式">轻轨1号线 → BGO；直飞TOS；公交／机场巴士入城</td><td data-label="当晚住宿">特罗姆瑟</td></tr><tr><td data-label="天数">D6</td><td data-label="当天安排">观鲸全天；回城后休息</td><td data-label="交通方式">市中心集合，活动方船只往返，约8—9小时</td><td data-label="当晚住宿">特罗姆瑟</td></tr><tr><td data-label="天数">D7</td><td data-label="当天安排">Kvaløya／Sommarøy峡湾海岸；夜间追极光</td><td data-label="交通方式">含接送的小巴团约5—6小时；极光团另订</td><td data-label="当晚住宿">特罗姆瑟</td></tr><tr><td data-label="天数">D8</td><td data-label="当天安排">特罗姆瑟 → 奥斯陆，预留回国前天气缓冲</td><td data-label="交通方式">TOS → OSL直飞约2小时；Vy入城</td><td data-label="当晚住宿">奥斯陆</td></tr><tr><td data-label="天数">D9</td><td data-label="当天安排">奥斯陆离境，飞回中国</td><td data-label="交通方式">Oslo S → OSL；国际联程回程</td><td data-label="当晚住宿">飞机上</td></tr><tr><td data-label="天数">D10</td><td data-label="当天安排">经枢纽返回国内</td><td data-label="交通方式">国内衔接航班</td><td data-label="当晚住宿">回家</td></tr></tbody></table></div><div aria-label="手机端十天行程速览" class="mobile-timeline"><a class="mobile-stop" href="#day-1"><span class="stop-number">D01</span><span class="stop-copy"><strong>国内出发，经枢纽转机</strong><span>住宿：飞机／中转途中</span></span><span class="stop-arrow">↗</span></a><a class="mobile-stop" href="#day-2"><span class="stop-number">D02</span><span class="stop-copy"><strong>抵达奥斯陆；歌剧院周边、海港与市中心轻松走走</strong><span>住宿：奥斯陆</span></span><span class="stop-arrow">↗</span></a><a class="mobile-stop" href="#day-3"><span class="stop-number">D03</span><span class="stop-copy"><strong>奥斯陆 → 卑尔根，雪山高原景观火车</strong><span>住宿：卑尔根</span></span><span class="stop-arrow">↗</span></a><a class="mobile-stop" href="#day-4"><span class="stop-number">D04</span><span class="stop-copy"><strong>Mostraumen峡湾游船；有余力再去弗洛伊恩山</strong><span>住宿：卑尔根</span></span><span class="stop-arrow">↗</span></a><a class="mobile-stop" href="#day-5"><span class="stop-number">D05</span><span class="stop-copy"><strong>卑尔根飞特罗姆瑟；港口、城市暮光；可选第一次追极光</strong><span>住宿：特罗姆瑟</span></span><span class="stop-arrow">↗</span></a><a class="mobile-stop" href="#day-6"><span class="stop-number">D06</span><span class="stop-copy"><strong>观鲸全天；回城后休息</strong><span>住宿：特罗姆瑟</span></span><span class="stop-arrow">↗</span></a><a class="mobile-stop" href="#day-7"><span class="stop-number">D07</span><span class="stop-copy"><strong>Kvaløya／Sommarøy峡湾海岸；夜间追极光</strong><span>住宿：特罗姆瑟</span></span><span class="stop-arrow">↗</span></a><a class="mobile-stop" href="#day-8"><span class="stop-number">D08</span><span class="stop-copy"><strong>特罗姆瑟 → 奥斯陆，预留回国前天气缓冲</strong><span>住宿：奥斯陆</span></span><span class="stop-arrow">↗</span></a><a class="mobile-stop" href="#day-9"><span class="stop-number">D09</span><span class="stop-copy"><strong>奥斯陆离境，飞回中国</strong><span>住宿：飞机上</span></span><span class="stop-arrow">↗</span></a><a class="mobile-stop" href="#day-10"><span class="stop-number">D10</span><span class="stop-copy"><strong>经枢纽返回国内</strong><span>住宿：回家</span></span><span class="stop-arrow">↗</span></a></div><nav aria-label="选择行程日期" class="day-jump"><span class="jump-heading">按天查看</span><div class="jump-scroll"><a href="#day-1">D1</a><a href="#day-2">D2</a><a href="#day-3">D3</a><a href="#day-4">D4</a><a href="#day-5">D5</a><a href="#day-6">D6</a><a href="#day-7">D7</a><a href="#day-8">D8</a><a href="#day-9">D9</a><a href="#day-10">D10</a></div></nav><div class="day-accordion"><details class="day-detail" id="day-1"><summary><span class="day-index">D01</span><span class="day-text"><span class="day-title">国内出发</span><span class="day-sub">长途交通 · 国际转机</span></span></summary><div class="day-body"><p>将这一天完整留给交通。理想情况是下午或晚上从国内出发城市起飞，在枢纽衔接夜间国际段，次日抵达奥斯陆；具体以可售联程为准。不要为凑这个节奏买无法保障的分开出票短中转。</p></div></details><details class="day-detail" id="day-2"><summary><span class="day-index">D02</span><span class="day-text"><span class="day-title">奥斯陆：抵达和适应</span><span class="day-sub">抵达奥斯陆 · 市区慢逛</span></span></summary><div class="day-body"><p>抵达OSL后按火车标识到车站，购买前往<strong>Oslo S</strong>的Vy车票，约23分钟到中央车站。下车后先去酒店寄存或办理入住；酒店能否提前入住以店方为准。</p><p>推荐步行顺序：Oslo S → 奥斯陆歌剧院周边 → Bjørvika海滨 → 卡尔约翰大街。抵达早、体力好时再加阿克什胡斯城堡外部区域或Aker Brygge；抵达晚就只吃饭和休息。歌剧院屋顶如有结冰、封闭，不安排上去。</p><p><strong>住哪里：</strong>Oslo S／Jernbanetorget周边，尽量选到车站步行5—10分钟内、路线平缓的酒店，方便次日带行李上火车。厕所可结合机场、车站、酒店和用餐地点解决，部分设施收费。</p></div></details><details class="day-detail" id="day-3"><summary><span class="day-index">D03</span><span class="day-text"><span class="day-title">奥斯陆—卑尔根：把火车当作一天的风景</span><span class="day-sub">约 7 小时高原景观列车</span></span></summary><div class="day-body"><p>订<strong>Oslo S → Bergen</strong>白天直达列车，优先选择上午较早出发的班次，让经过高原的时段尽量落在有限日照内。正常行程约7小时，具体以Vy当日售票结果为准；有铁路施工或替代巴士时，不照搬平日耗时。</p><p>看点是沿途森林、山谷、Finse附近高原和Myrdal一带地形变化。雪景、能见度取决于天气；冬季后半程可能已经入夜。全程坐同一班车到卑尔根，本版不在Myrdal下车，也不接Flåm支线。</p><p>抵达后入住，傍晚逛布吕根Bryggen木屋区和港口。不要再塞峡湾游船。</p><p><strong>住哪里：</strong>Byparken—鱼市场Torget—Bryggen之间的市中心，优先平缓位置，兼顾次日码头和D5机场轻轨。火车站可步行或短程公交前往酒店。</p></div></details><details class="day-detail" id="day-4"><summary><span class="day-index">D04</span><span class="day-text"><span class="day-title">卑尔根：西部峡湾＋山顶全景</span><span class="day-sub">峡湾游船 · 山顶全景</span></span></summary><div class="day-body"><p>上午参加<strong>Mostraumen峡湾往返游船</strong>。Rødne当前官网列明11—12月及2027年1—2月通常10:00出发，约3—3.5小时，从鱼市场旁<strong>Zachariasbryggen，Torget 2</strong>上船。请以具体日期的预订页面和票面为准，提前到码头。</p><p>这是从卑尔根直接往返的观光船，全程通常不上岸，有室内座舱和厕所。沿途看Osterfjord及Mostraumen一带的峡湾、山壁和村庄。它与Flåm／纳柔依峡湾不是同一条路线；选它是为了在十天里减少搬行李和多段换乘。冬季冰况可能导致航线调整。</p><p>午后回城吃饭。如云层和能见度合适，再步行到Fløibanen下站，乘缆索铁路往返弗洛伊恩山Fløyen，看卑尔根港口与群山。想看自然光就尽量早点上山；如赶不上，可看夜景。阴雨、大雾时改为木屋区、咖啡馆或博物馆，避免为低能见度硬上山。</p><p>游船当前公布成人常规价：2026年890 NOK、2027年940 NOK；折扣和具体日期价格以出票页为准。</p></div></details><details class="day-detail" id="day-5"><summary><span class="day-index">D05</span><span class="day-text"><span class="day-title">卑尔根—特罗姆瑟：进入北极</span><span class="day-sub">飞向特罗姆瑟 · 可选追光</span></span></summary><div class="day-body"><p>从市中心<strong>Byparken</strong>搭Bybanen轻轨<strong>1号线</strong>到<strong>Bergen lufthavn</strong>，车程约45分钟；拖行李和候车时间另计。选择上午或中午的<strong>BGO → TOS直飞</strong>，优先查询Widerøe；该航司官网确认此航线，实际日期是否有合适班次仍需查票。飞行按约2小时预留，整个门到门过程按半天安排。</p><p>抵达TOS后，可用Svipper查询前往酒店的公交：机场站当前有24、26、40、42路，但不同线路终点不同，不能随意上一辆。输入酒店或市中心具体站名，按实时结果选择。公交站需短距离步行，行李空间有限；大箱子、夜间或冰雪天气可比较机场巴士。</p><p>下午安排港口、市中心和咖啡馆。如果到达够早、天气清晰且能赶上暮光，可改去<strong>Fjellheisen缆车</strong>，市中心乘26路，目的地输入“Fjellheisen”。公交票不含缆车票；冬季以当天运营状态为准，不把大桥步行或登山台阶作为必要路线。</p><p><strong>极光第一个可用夜晚：</strong>只有在航班到达与集合时间之间余量充足时，才预订当天追光团。若飞机晚点，团方未必退款。比较5—7小时左右、含保暖装备及市中心回程下车安排的车行追光团；确切集合点和返回范围逐一看产品。当天来不及，就将主追光放到D7。</p><p><strong>住哪里：</strong>Prostneset码头—Storgata主街—Radisson Blu／Scandic Ishavshotel附近，尽量步行可达活动集合点。不要仅为住偏远极光小屋增加每天往返接送。</p></div></details><details class="day-detail" id="day-6"><summary><span class="day-index">D06</span><span class="day-text"><span class="day-title">观鲸：一整天只安排这一项</span><span class="day-sub">观鲸出海 · 留意海况</span></span></summary><div class="day-body"><p>12月—1月处于特罗姆瑟常见观鲸季。可比较Brim Explorer等运营商从市中心出发的产品；其当前2026/27季观鲸船标示约<strong>8—9小时、成人1990 NOK</strong>。不同班次集合点、启航时间和季节可能调整，按订单执行。</p><p>这是较长的海上行程，不能按“出海两小时”排。选择有暖舱和厕所的船型，按票面决定携带午餐还是船上购买。鲸的迁徙、海况和天气都会影响行程与观测，不保证看到某一种鲸；报名时确认取消和未见鲸的处理规则。</p><p>傍晚回城后吃饭休息，默认不接另一场长时间追光。若担心晕船或不喜欢动物观察，可将本日改成D7的陆地峡湾活动，把D7改为市内缆车＋驯鹿营地二选一；不要把观鲸和其他整日团同时预订。</p></div></details><details class="day-detail" id="day-7"><summary><span class="day-index">D07</span><span class="day-text"><span class="day-title">北极峡湾海岸＋极光</span><span class="day-sub">北极海岸 · 主追光夜</span></span></summary><div class="day-body"><p>白天参加<strong>Kvaløya／Sommarøy</strong>方向的冬季峡湾小巴团，约5—6小时，挑有明确市中心集合与返回安排的产品。看点是海岸、雪山、峡湾、渔村和暮光；停车点随天气和路况调整。沿海风大，拍照点只短暂停留，不安排冬季野外徒步。</p><p>本版使用活动车，是为了集中利用短暂光线。普通区域公交适合点到点移动，但不能替代多点停车的观景路线。若坚持完全不参加当地团，可改为市内公交＋Fjellheisen缆车＋港口，删去这一天的郊外海岸巡游。</p><p>如果更喜欢动物与文化，可将白天峡湾团换为<strong>驯鹿喂食＋萨米文化</strong>，两者二选一。Tromsø Arctic Reindeer当前约4小时，含市中心往返交通与热午餐；集合点为Prostneset巴士总站，基础产品不含雪橇。当前2026/27季喂食产品成人淡季1490 NOK、旺季1890 NOK，具体以日期页面为准。</p><p>晚上参加主追光团，或在D5已经成功看到后按天气决定是否再报。三晚特罗姆瑟提供三个可用夜晚，但不等于要连续三晚报团，也不保证见到极光。若D7深夜返回，D8选较晚的上午或中午航班，留足睡眠与去机场的时间。</p></div></details><details class="day-detail" id="day-8"><summary><span class="day-index">D08</span><span class="day-text"><span class="day-title">特罗姆瑟—奥斯陆：回国前先回南部</span><span class="day-sub">回奥斯陆 · 留天气缓冲</span></span></summary><div class="day-body"><p>用Svipper公交或机场巴士前往TOS，乘<strong>TOS → OSL</strong>直飞，查询Norwegian或SAS，飞行约2小时。建议白天离开，避免把当日最后一班当作唯一选择。国内出发按航空公司要求提前到机场，本版行程可先按约2小时预留。</p><p>抵达OSL后坐Vy火车回Oslo S，再住一晚。可将D2未完成的市中心、国家博物馆或蒙克博物馆择一补上，按营业日和体力决定。</p><p>如果D9回国航班很早，D8可住机场步行可达的酒店；如果D9是中午或下午起飞，住Oslo S周边更方便吃饭和简单游览。选择机场酒店时，确认它是真正步行可达，还是需要另外乘接驳车。</p><p>提前回奥斯陆能降低北部天气延误直接影响国际航班的风险，但不能完全消除；它是本版保留的缓冲，不再加另一个城市。</p></div></details><details class="day-detail" id="day-9"><summary><span class="day-index">D09</span><span class="day-text"><span class="day-title">离开挪威</span><span class="day-sub">从奥斯陆离境</span></span></summary><div class="day-body"><p>从Oslo S坐Vy至<strong>Oslo lufthavn／OSL</strong>，车程约23分钟。不要只按23分钟倒推：还要算酒店出发、候车、步行、托运行李和国际安检。本版建议国际航班提前约3小时抵达机场，并遵守航空公司值机截止要求。</p><p>搭奥斯陆 → 中转枢纽 → 国内目的地的回程联程，确认最终抵达国内目的地的日期确实在D10。</p></div></details><details class="day-detail" id="day-10"><summary><span class="day-index">D10</span><span class="day-text"><span class="day-title">返回国内</span><span class="day-sub">返回国内 · 结束行程</span></span></summary><div class="day-body"><p>完成入境及后续衔接，返回国内目的地。若联程要求在国内首个入境机场提取或重新托运行李，按承运人通知和现场流程执行；不要默认所有行李都能直挂到家。</p></div></details></div><h2 id="transport">所有主要交通集中看</h2><div class="table-shell"><table class="responsive-table table-3"><thead><tr><th>路段</th><th>怎么坐／搜索什么</th><th>耗时口径</th><th>在哪里查／买</th></tr></thead><tbody><tr><td data-label="路段">国内出发城市 → 奥斯陆</td><td data-label="乘坐方式">出发机场 → OSL，优先完整联程；中转地按日期决定</td><td data-label="参考耗时">按实际联程；目标D1出发D2到</td><td data-label="购票查询">航司官网及正规机票平台</td></tr><tr><td data-label="路段">OSL → 奥斯陆市中心</td><td data-label="乘坐方式">Oslo lufthavn → Oslo S，选择Vy</td><td data-label="参考耗时">火车约23分钟，不含候车</td><td data-label="购票查询">Vy／Entur</td></tr><tr><td data-label="路段">奥斯陆 → 卑尔根</td><td data-label="乘坐方式">Oslo S → Bergen，白天直达列车</td><td data-label="参考耗时">约7小时，不含酒店接驳</td><td data-label="购票查询">Vy／Entur</td></tr><tr><td data-label="路段">卑尔根市中心 → BGO</td><td data-label="乘坐方式">Byparken → Bergen lufthavn，轻轨1号线</td><td data-label="参考耗时">约45分钟，不含候车步行</td><td data-label="购票查询">Skyss App／售票机</td></tr><tr><td data-label="路段">卑尔根 → 特罗姆瑟</td><td data-label="乘坐方式">BGO → TOS，优先直飞</td><td data-label="参考耗时">飞行约2小时，门到门按半天</td><td data-label="购票查询">Widerøe；无合适直飞再查经OSL联程</td></tr><tr><td data-label="路段">TOS → 特罗姆瑟市中心</td><td data-label="乘坐方式">Tromsø lufthavn → 酒店／具体市区站名</td><td data-label="参考耗时">建议按20—30分钟公交车程估算，另加步行候车</td><td data-label="购票查询">Svipper；机场巴士另购</td></tr><tr><td data-label="路段">特罗姆瑟市中心 → 缆车下站</td><td data-label="乘坐方式">查询Fjellheisen，通常26路</td><td data-label="参考耗时">按酒店出发位置及当日路况查</td><td data-label="购票查询">Svipper；缆车官网买山顶往返票</td></tr><tr><td data-label="路段">峡湾／驯鹿／极光活动</td><td data-label="乘坐方式">按产品规定的市中心集合点上车</td><td data-label="参考耗时">活动时长已含或未含接送须看明细</td><td data-label="购票查询">运营商官网／Visit Tromsø</td></tr><tr><td data-label="路段">特罗姆瑟 → 奥斯陆</td><td data-label="乘坐方式">TOS → OSL直飞</td><td data-label="参考耗时">飞行约2小时</td><td data-label="购票查询">Norwegian／SAS</td></tr><tr><td data-label="路段">奥斯陆市中心 → OSL</td><td data-label="乘坐方式">Oslo S → Oslo lufthavn，Vy</td><td data-label="参考耗时">火车约23分钟，另加机场缓冲</td><td data-label="购票查询">Vy／Entur</td></tr><tr><td data-label="路段">奥斯陆 → 国内目的地</td><td data-label="乘坐方式">OSL → 国内目的地，优先完整联程</td><td data-label="参考耗时">目标D9出发D10到</td><td data-label="购票查询">航司官网及正规机票平台</td></tr></tbody></table></div><p><strong>票务提醒：</strong>Vy普通机场火车与Flytoget机场快线是不同产品，按自己购买的票乘车；不要把市内一圈票当机场票。特罗姆瑟Svipper普通公交票也不包含Airport Express机场巴士。各地票券使用范围和有效期以购票页面为准。</p><h2 id="budget">预算：先按一个人单住测算</h2><p>以下是本路线的人民币规划额度，不是具体日期的机票、酒店实时报价；圣诞跨年或临近出发可能更高，未计购物。</p><div class="table-shell"><table class="responsive-table table-4"><thead><tr><th>项目</th><th style="text-align:right">一人参考预留</th></tr></thead><tbody><tr><td data-label="费用项目">国内—奥斯陆国际往返</td><td data-label="一人预留" style="text-align:right">6,000—10,000元</td></tr><tr><td data-label="费用项目">挪威7晚酒店，一人一间</td><td data-label="一人预留" style="text-align:right">6,000—10,000元</td></tr><tr><td data-label="费用项目">两段挪威国内航班＋景观火车＋市内／机场交通</td><td data-label="一人预留" style="text-align:right">2,500—4,500元</td></tr><tr><td data-label="费用项目">Mostraumen＋观鲸＋一次追光＋一次北部白天活动</td><td data-label="一人预留" style="text-align:right">3,000—5,000元</td></tr><tr><td data-label="费用项目">餐饮</td><td data-label="一人预留" style="text-align:right">1,800—2,800元</td></tr><tr><td data-label="费用项目">另留签证、保险、行李差价、缆车／博物馆及机动额度</td><td data-label="一人预留" style="text-align:right">约2,000—3,000元，按已有物品与活动增减</td></tr></tbody></table></div><p><strong>一人单住先准备约2.2万—3.5万元更合适。</strong>酒店和追光活动是主要变量；多人分房可以降低住宿成本。若想省预算，优先减少付费活动或城市，保留机场缓冲与位置方便的住宿。第二次追光、额外雪橇等需要单独增加预算。</p><h2 id="tips">订票顺序与冬季执行要点</h2><ol><li>先确定国际往返日期，确认十天包含国内出发和返抵；再锁D5的BGO—TOS与D8的TOS—OSL，避免先买酒店后发现航班无法衔接。</li><li>订可取消住宿；然后订Oslo S—Bergen白天列车，核对是否有施工和替代巴士。</li><li>预订Mostraumen、观鲸和一场主追光。北部白天活动保持二选一，避免把有限时间全部锁死。</li><li>出发前及每天早晨查看天气与交通状态。12月24—26日、跨年和元旦逐项核查班次、餐厅及集合时间，不能沿用普通工作日安排。</li><li>穿防风保暖外层、防水冬靴，准备帽子、手套和可拆卸防滑鞋套。不要在极夜把结冰山路、海边无人小路或远郊公交末班作为必走环节。</li><li>市区用餐和休息点围绕酒店、码头、车站安排；上长途活动前确认暖舱、厕所与餐食。长时间海上或夜间活动当天，避免连续塞满项目。</li></ol><h2 id="official">官方查询入口与资料来源</h2><ul><li><a href="https://www.hainanairlines.com/" rel="noopener noreferrer" target="_blank">海南航空：航班查询与预订</a></li><li><a href="https://www.emirates.com/english/destinations/dxb/osl/flights-from-dubai-to-oslo/" rel="noopener noreferrer" target="_blank">阿联酋航空：迪拜—奥斯陆</a></li><li><a href="https://www.vy.no/en/train/oslo-to-bergen" rel="noopener noreferrer" target="_blank">Vy：Oslo S—Bergen</a></li><li><a href="https://www.vy.no/en/train/oslo-gardermoen" rel="noopener noreferrer" target="_blank">Vy：奥斯陆机场与市区火车</a></li><li><a href="https://entur.no/" rel="noopener noreferrer" target="_blank">Entur：全国公共交通规划</a></li><li><a href="https://ruter.no/en/" rel="noopener noreferrer" target="_blank">Ruter：奥斯陆公共交通</a></li><li><a href="https://www.skyss.no/en/travel/Airports/" rel="noopener noreferrer" target="_blank">Skyss：卑尔根机场公共交通</a></li><li><a href="https://en.visitbergen.com/visitor-information/travel-information/getting-here/to-bergen-by-plane/bergen-airport-flesland-to-bergen-city-center" rel="noopener noreferrer" target="_blank">Visit Bergen：机场到市区</a></li><li><a href="https://rodne.no/en/fjord-experiences/bergen/fjordcruise-mostraumen/" rel="noopener noreferrer" target="_blank">Rødne：Mostraumen游船、冬季时刻与价格</a></li><li><a href="https://www.floyen.no/en/" rel="noopener noreferrer" target="_blank">Fløyen／Fløibanen</a></li><li><a href="https://www.wideroe.no/en/destinations/tromso" rel="noopener noreferrer" target="_blank">Widerøe：前往特罗姆瑟的航线</a></li><li><a href="https://www.norwegian.com/us/low-fare-calendar/OsloGardermoen-Troms%C3%B8" rel="noopener noreferrer" target="_blank">Norwegian：奥斯陆—特罗姆瑟查询</a></li><li><a href="https://www.flysas.com/" rel="noopener noreferrer" target="_blank">SAS</a></li><li><a href="https://svipper.no/menu/tickets/bus-fares/catch-the-bus-to-from-the-airport-in-tromso/" rel="noopener noreferrer" target="_blank">Svipper：特罗姆瑟机场公交与机场巴士区别</a></li><li><a href="https://www.fjellheisen.no/engelsk/practical-info" rel="noopener noreferrer" target="_blank">Fjellheisen：公共交通与实用信息</a></li><li><a href="https://www.visittromso.no/winter" rel="noopener noreferrer" target="_blank">Visit Tromsø：极夜与冬季体验</a></li><li><a href="https://brimexplorer.com/tours/silent-whale-watching" rel="noopener noreferrer" target="_blank">Brim Explorer：观鲸</a></li><li><a href="https://www.visittromso.no/fjords-tour-kvaloya-and-sommaroy" rel="noopener noreferrer" target="_blank">Visit Tromsø：Kvaløya／Sommarøy峡湾团</a></li><li><a href="https://tromsoarcticreindeer.com/reindeer-feeding-tromso" rel="noopener noreferrer" target="_blank">Tromsø Arctic Reindeer：喂食与萨米文化</a></li><li><a href="https://booking.visittromso.no/en/to-do/2137811/polar-northern-light-chase-from-troms%C3%B8-by-minibus/showdetails" rel="noopener noreferrer" target="_blank">Visit Tromsø：车行追极光产品示例</a></li></ul><p>本版没有加入罗弗敦、Flåm过夜或挪威缩影多段串联，是十天时长与冬季交通条件下的路线取舍。如日后将“罗弗敦雪山渔村”作为首要目标，应重新规划北部路线，而不是在这份日程中再硬加一个停留地。</p></article><footer class="page-footer">挪威冬季十天攻略 · 国内往返 · 适合 GitHub Pages 手机浏览</footer></main>
+</div>
+<a class="back-top" href="#top" aria-label="返回顶部" title="返回顶部">↑</a>
+<script>(() => {
+  const navLinks = [...document.querySelectorAll('.nav-links a')];
+  function revealFromHash() {
+    const hash = decodeURIComponent(location.hash.slice(1));
+    if (!hash) return;
+    const el = document.getElementById(hash);
+    if (!el) return;
+    const collapsed = el.closest('details');
+    if (collapsed) collapsed.open = true;
+    if (el.tagName.toLowerCase() === 'details') el.open = true;
+  }
+  window.addEventListener('hashchange',revealFromHash);
+  document.querySelectorAll('a[href^="#day-"]').forEach(link => {
+    link.addEventListener('click', () => {
+      const item = document.getElementById(link.getAttribute('href').slice(1));
+      if (item) item.open=true;
+    });
+  });
+  revealFromHash();
+  if ('IntersectionObserver' in window) {
+    const h2s = document.querySelectorAll('article h2[id]');
+    const obs = new IntersectionObserver(entries => {
+      for (const e of entries) {
+        if(e.isIntersecting) {
+          navLinks.forEach(x=>x.classList.toggle('active',x.getAttribute('href')==='#'+e.target.id));
+        }
+      }
+    },{rootMargin:'-20% 0px -65% 0px'});
+    h2s.forEach(x=>obs.observe(x));
+  }
+})();</script>
+</body>
+</html>
